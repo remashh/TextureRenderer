@@ -125,31 +125,6 @@ public class DrawTool : EditorWindow
             }
 
         }
-        
-        
-        /*Event event_mouse = Event.current;
-        
-        if (event_mouse.type == EventType.MouseDown)
-        {
-            switch (event_mouse.button)
-            {
-                case (0):
-                {
-                    ChangeColor(firstColor, event_mouse.mousePosition);
-                    //Debug.Log(firstColor);
-                    break;
-                }
-                case (1):
-                {
-                    ChangeColor(secondColor, event_mouse.mousePosition);
-                    //Debug.Log(secondColor);
-                    break;
-                }
-            }
-
-        }*/
-
-
     }
 
     private void ChangeColor(Color color, Vector2 coord)
