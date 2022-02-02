@@ -37,6 +37,8 @@ public class DrawTool : EditorWindow
                 textures[i, j] = new Vector2(boxX, boxY);
             }
         }
+        firstColor = Color.white;
+        secondColor = Color.white;
     }
 
     void OnGUI()
@@ -123,7 +125,7 @@ public class DrawTool : EditorWindow
                     break;
                 }
             }
-
+            event_mouse.Use();
         }
     }
 
